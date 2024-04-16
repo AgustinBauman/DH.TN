@@ -1,0 +1,40 @@
+[
+    {
+    "id" : 1,
+    "marca" : "Olmo",
+    "modelo" : "Regal",
+    "rodado" : 29,
+    "anio" : 2022,
+    "color": "roja",
+    "peso" : 16,
+    "tipo" : "Montañera",
+    "precio" : 120000,
+    "vendida" : "no"
+    },
+    {
+        "id": 2,
+        "marca": "Fierce",
+        "modelo": "FM18SI29AM211",
+        "rodado": 29,
+        "anio": 2021,
+        "color": "negro",
+        "peso": 16,
+        "tipo": "Montañera",
+        "precio": 150000,
+        "vendida": "si"
+    },
+    {
+        "id": 3,
+    "marca": "Battle",
+    "modelo": "Sunshine",
+    "rodado": 28,
+    "anio": 2019,
+    "color": "amarillo",
+    "peso": 17,
+    "tipo": "Retro",
+    "precio": 80000,
+    "vendida": "si"
+    }
+
+]
+  
