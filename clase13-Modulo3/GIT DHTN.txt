@@ -5,7 +5,21 @@ Get started by creating a new file or uploading an existing file. We recommend e
 
 …or create a new repository on the command line
 echo "# DH.TN" >> README.md
-git init  ( conecta el repositorio local con git)
+///
+Pasos IMPORTANTES:
+git init  (conecta el repositorio local con git)
+git status (me dice en el repositorio que estoy trabajando, lo que aparece en rojo no esta agregado todavia)
+git add -A (agrega todo lo que no tenemos agregado)
+git commit -m "(mensaje: q hiciste y q archivo tocaste)" (confirma los cambios)
+git branch -M main (cambia nuestra rama de master a main)
+git remote add origin (repo a conectar)
+git push -u origin main "o" master (sube todo lo commiteado)
+///
+git config --list (muestra nuestra configuracion)
+git config user.name (muestra nuestro nombre)
+git config user.email (muestra nuestro mail)
+
+///
 git add README.md
 git commit -m "first commit"
 git branch -M main
