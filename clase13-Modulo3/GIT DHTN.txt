@@ -13,7 +13,10 @@ git add -A (agrega todo lo que no tenemos agregado)
 git commit -m "(mensaje: q hiciste y q archivo tocaste)" (confirma los cambios)
 git branch -M main (cambia nuestra rama de master a main)
 git remote add origin (repo a conectar)
+git pull (para ver si alguien modifico algo antes, antes de subir lo mio)
 git push -u origin main "o" master (sube todo lo commiteado)
+git clone (bajar repositorio nuevo)
+
 ///
 git config --list (muestra nuestra configuracion)
 git config user.name (muestra nuestro nombre)
